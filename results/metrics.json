@@ -1,0 +1,29 @@
+{
+  "gap_threshold_eV": 0.2,
+  "classification_probability_threshold": 0.5,
+  "classification_test": {
+    "n": 193,
+    "auc": 0.9842875591907017,
+    "accuracy": 0.9637305699481865,
+    "precision": 0.9351851851851852,
+    "recall": 1.0,
+    "specificity": 0.9239130434782609,
+    "confusion_matrix_tn_fp_fn_tp": [
+      85,
+      7,
+      0,
+      101
+    ]
+  },
+  "regression_test_actual_above_threshold": {
+    "train_n": 328,
+    "test_n": 101,
+    "r2": 0.6012960043787328,
+    "rmse_eV": 0.65984282785374
+  },
+  "prediction": {
+    "total_n": 193,
+    "classifier_pass_n": 125,
+    "final_candidate_n": 123
+  }
+}
